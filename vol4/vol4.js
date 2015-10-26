@@ -210,7 +210,7 @@
       // seafoods_graphics.drawRect(10, 10, 90, 90);
       for (var i = seafoods.length - 1; i >= 0; i--) {
         seafoods[i].logic_position.y += seafoods[i].vector_y * (delta / 1000);
-        updateOrCreateWaveState(seafoods[i].wave_state, delta);
+        // updateOrCreateWaveState(seafoods[i].wave_state, delta);
         seafoods[i].y = seafoods[i].logic_position.y + seafoods[i].wave_state.offset * 2;
         // seafoods_graphics.drawRect(seafoods[i].x, seafoods[i].y, seafoods[i].width, seafoods[i].height);
 
