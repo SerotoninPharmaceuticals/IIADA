@@ -115,11 +115,11 @@ body {
   height: 700px;
   width: 1280px;
 
-  box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+/*  box-shadow: 0 0 0 1px rgba(0,0,0,.2);
   background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2));
   background-size: 1px 1px;
   background-repeat: repeat-y;
-  background-position: center;
+  background-position: center;*/
 }
 
 vertial-line {
@@ -166,7 +166,6 @@ vertial-line-chn {
   top: 18px;
   left: 40px;
   font-size: 0.7em;
-  font-style: italic;
 }
 [data-scene=cover] vertial-line.opening-date {
   position: fixed;
