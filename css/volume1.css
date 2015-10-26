@@ -1,0 +1,360 @@
+@charset "utf-8";
+html{
+	width: 13500px;
+	height: 100%;
+	overflow-y: hidden;
+}
+
+body {
+	background: url(../images/vol1/BG.jpg);
+	color: #272727;
+}
+
+p{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 14px;
+}
+
+a{
+	color: #272727;
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgba(255,0,4,1.00);
+	text-decoration: line-through;
+}
+
+h1,h2,h3,h4{
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 130%;
+	letter-spacing: 8px;
+}
+
+h2{
+	font-size: 16px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	letter-spacing: 3px;
+}
+
+h3{
+	font-size: 14px;
+	margin-top: 15px;
+	letter-spacing: 3px;
+}
+
+h4{
+	font-size: 14px;
+	margin-top: 15px;
+	letter-spacing: 2px;
+}
+
+.title{
+	position: absolute;
+	top: 48%;
+	left: 45px;
+	height: 300px;
+	margin-top: -150px;
+}
+
+.title2{
+	position: absolute;
+	bottom: 0px;
+	margin-bottom: 0;
+	left: 45px;
+}
+
+.intro{
+	top: 50%;
+	left: 1080px;
+	position: absolute;
+	height: 580px;
+	width: 750px;
+	margin: -290px 0 0 0;
+	background-color: rgba(154,154,154,0.75);
+}
+
+.nosign{
+	top: 48%;
+	left: 2400px;
+	width: 250px;
+	height:100px;
+  	position: absolute;
+	margin-top: -50px;
+}
+
+.pathway{
+	top: 48%;
+	left: 3200px;
+	width: 1200px;
+	height: 100px;
+  	position: absolute;
+	margin-top: -40px;
+}
+
+.content{
+	top: 48%;
+	width: 5000px;
+	height: 85%;
+  	position: absolute;
+	margin: auto;
+	top: 0; left: 5000px; bottom: 0; right: 0;
+}
+
+.absocenter{
+	width: 85%;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.exit{
+	position: absolute;
+	height: 50px;
+	margin: auto;
+	top: -50px; left: 13400px; bottom: 0; 
+}
+
+		/*--Another art piece is coming below Another art piece is coming below --*/	
+
+#work1{
+	position: absolute;
+	height: 100%;
+	width: 800px;
+}
+
+#work1-1{
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0; left: -50px;
+	max-height: 711px;
+}
+
+#work-text1-1{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	margin: auto;
+	bottom: 60px;
+	left: 320px;
+}
+
+#work1-2{
+	position: absolute;
+	max-height: 331px;
+	margin: auto;
+	top: -150px; bottom:0; left: 150px;
+}
+
+#work-text1-2{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	top: 105px; left:610px;
+	width: 250px;
+	float: right;
+	text-align: left;
+}
+
+
+		/*--Another art piece is coming below Another art piece is coming below --*/			
+		
+		
+#work2{
+	position: absolute;
+	height: 100%;
+	width: 800px;
+	left: 1650px;
+}
+
+#work2-1{
+	position: absolute;
+	margin: auto;
+	top: 0; bottom: 0;
+	max-height: 683px;
+}
+
+#work-text2-1{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	margin: auto;
+	top: 35px;
+	left: 300px;
+}
+
+#work2-2{
+	position: absolute;
+	margin: auto;
+	max-height: 255px;
+	bottom: 115px; left: 275px;
+}
+
+#work-text2-2{
+	position: absolute;
+	left: 65px; top: 165px;
+	width: 360px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	margin: auto;
+}
+
+
+		/*--Another art piece is coming below Another art piece is coming below --*/
+
+
+#work3{
+	position: absolute;
+	height: 100%;
+	width: 1300px;
+	left: 3050px;
+}
+
+#work3-1{
+	position: absolute;
+	margin: auto;
+	top: -80px; bottom: 0; left: -20px;
+	max-height: 358px;
+}
+
+#work-text3-1{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	margin: auto;
+	top: 320px;
+	left: 55px;
+}
+
+#work3-2{
+	position: absolute;
+	margin: auto;
+	height: 520px;
+	width: 418px;
+	top:-100px; bottom: 0; left: 305px;
+}
+
+#work-text3-2{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	height: 50px;
+	margin: 0 auto;
+	position: absolute;
+	top: 335px; left: 175px;
+}
+
+#work3-3{
+	position: absolute;
+	margin: auto;
+	top: -80px; bottom: 0; left: 862px;
+	max-height: 229px;
+}
+
+#work-text3-3{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	margin: auto;
+	top: 195px;
+	left: 53px;
+}
+
+
+		/*--Another art piece is coming below Another art piece is coming below --*/	
+		
+		
+#work4{
+	position: absolute;
+	height: 100%;
+	width: 600px;
+	left: 5150px;
+}
+
+#work4-1{
+	position: absolute;
+	margin: auto;
+	top: -45px; bottom: 0;
+	max-height: 347px;
+}
+
+#work-text4-1{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	margin: auto;
+	top: 320px;
+	left: 75px;
+}
+
+
+		/*--Another art piece is coming below Another art piece is coming below --*/	
+		
+		
+#work5{
+	position: absolute;
+	height: 100%;
+	width: 1000px;
+	left: 6600px;
+}
+
+#work5-1{
+	position: absolute;
+	margin: auto;
+	top: -220px; bottom: 0;
+	max-height: 265px;
+	z-index: 3;
+}
+
+#work-text5-1{
+	position: absolute;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	width: 350px;
+	margin: auto;
+	top: 240px;
+	left: 70px;
+}
+
+#work5-2{
+	position: absolute;
+	margin: auto;
+	height: 300px;
+	top: 325px; bottom:0; left: 335px;
+	z-index: 5;
+}
+
+#work-text5-2{
+	position: absolute;
+	left: 122px;
+	top: 250px;
+	width: 310px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	margin: auto;
+}
+
+#work5-3{
+	position: absolute;
+	margin: auto;
+	max-height: 248px;
+	top: -300px; bottom: 0; left: 650px;
+}
+
+#work-text5-3{
+	position: absolute;
+	left: 110px;
+	top: 155px;
+	width: 230px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 12px;
+	margin: auto;
+}

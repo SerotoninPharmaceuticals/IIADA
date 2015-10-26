@@ -1,0 +1,1132 @@
+body {
+
+  background-image: url("../images/vol3/BG.jpg");
+
+  overflow-x: scroll;
+
+  overflow-y: hidden;
+
+}
+
+
+
+.corridor {
+
+  width: 16800px;
+
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+}
+
+
+
+.share-bg {
+
+  background-image: url("../images/vol3/share-bg.png");
+
+  background-color: rgba(153,172,205,0.65);
+
+  min-width: 531px;
+
+  min-height: 34px;
+
+}
+
+
+
+.section.header {
+
+  color: #fff;
+
+  padding: 20px 25px;
+  
+  min-width: 800px;
+  
+  width: 800px;
+
+}
+
+.section.header h1 {
+
+  font-size: 40px;
+
+  letter-spacing: 4px;
+
+}
+
+.section.header h2 {
+
+  margin-top: 20px;
+
+  font-size: 18px;
+
+}
+
+.section.header h3 {
+
+  font-size: 22px;
+
+  margin-top:10px;
+
+}
+
+.section.header .footer {
+
+  position: absolute;
+
+  bottom: 10px;
+
+}
+
+.section.header .footer h2 {
+
+  margin-bottom: 20px;
+
+}
+
+.section.introduction .content {
+
+  /*width: 850px;*/
+
+  color: white;
+
+  position: absolute;
+
+  width: 850px;
+
+  height: 100%
+
+}
+
+.section.introduction .inner {
+
+  position: relative;
+
+  width: 850px;
+
+  min-height: 620px;
+
+  height: 72%;
+
+  position: absolute;
+
+  top: -65px; left:0; bottom: 0; right: 0;
+
+  margin: auto;
+	
+  background-color: rgba(153,172,205,0.5);
+
+}
+
+.section.introduction .text {
+
+  height: 560px;
+
+  width: 100%;
+
+  padding: 35px 45px 0;
+
+  position: absolute;
+
+  top: 46%;
+
+  margin-top: -280px;
+
+}
+
+.section.introduction h3 {
+
+  font-size: 18px;
+
+  text-align: center;
+
+  letter-spacing: 2px;
+
+}
+
+.section.introduction p {
+
+  text-align: justify;
+
+  font-size: 13px;
+
+  margin-top: 1.5em;
+
+}
+
+.section.introduction a{
+	
+  color: #FFF; 
+  
+}
+
+.section.deny {
+
+  background-image: url("../images/vol3/signs.png");
+
+  background-repeat: no-repeat;
+
+  background-position: 75% 42%;
+
+}
+
+.section.pathway {
+
+  position: relative;
+
+  width: 1500px;
+
+}
+
+.section.pathway .content {
+
+  position: absolute;
+
+  width: 100%;
+
+  top: 42%;
+
+  margin-top: -80px;
+
+}
+
+.section.pathway h1 {
+
+  font-size: 40px;
+
+  letter-spacing: 4px;
+
+  color: white;
+
+  text-align: center;
+
+  line-height: 120px;
+
+}
+
+.section.pathway h1 .like-set-16 {
+
+  margin-left: -135px;
+
+  vertical-align: bottom;
+
+}
+
+.section.pathway,
+
+
+
+.section.gallery-4,
+.section.gallery-1 { margin-right: 600px;}
+
+.section.gallery-2 { margin-right: 1080px;}
+
+.section.gallery-3 { margin: -5px 950px 0 0;}
+
+.section.shop { margin-right: 1235px;}
+
+
+
+.section.gallery-1 .content {
+
+  position: absolute;
+
+  top: 42%;
+
+  margin-top: -150px;
+
+  height: 400px;
+
+}
+
+.section.gallery-1 .bg {
+
+  position: relative;
+
+  background-image: url("../images/vol3/frame-group1.png");
+
+  width: 1016px;
+
+  height: 400px;
+
+  margin-bottom: -400px;
+
+  pointer-events: none;
+
+  z-index: 5;
+
+}
+
+.section.gallery-1 .frame {
+
+  position: absolute;
+
+  z-index: 2;
+
+}
+
+.section.gallery-1 .frame1 {
+
+  left: 176px;
+
+  top: 67px;
+
+}
+
+.section.gallery-1 .frame2 {
+
+  left: 446px;
+
+  top: 72px;
+
+}
+
+.section.gallery-1 .frame3 {
+
+  left: 715px;
+
+  top: 65px;
+
+}
+
+.section.gallery-1 p {
+
+  color: white;
+
+  font-size: 13px;
+
+  padding: 250px 117px 0;
+
+  width: 680px;
+
+}
+
+.section.gallery-1 .like-set-16 {
+
+  position: absolute;
+
+  top: 254px;
+
+  left: 752px;
+
+  z-index: 8;
+
+}
+
+.untouchable {
+
+  cursor: not-allowed;
+
+}
+
+.section.gallery-2 .content {
+
+  position: absolute;
+
+  top: 42%;
+
+  margin-top: -200px;
+
+  height: 510px;
+
+  overflow: hidden;
+
+}
+
+.section.gallery-2 img {
+
+}
+
+.section.gallery-2 .intor {
+
+  position: relative;
+
+  height: 300px;
+
+  width: 1200px;
+
+  margin-bottom: -300px;
+
+  padding-left: 800px;
+
+  color: white;
+
+  font-size: 13px;
+
+}
+
+.section.gallery-2 .intor p {
+
+  text-align: justify;
+
+}
+
+.section.gallery-2 .intor h2 {
+
+  padding: 20px 0;
+
+  font-size: 22px;
+
+}
+
+.section.gallery-2 .intor .like-set-16 {
+
+  margin-top: 10px;
+
+}
+
+.section.gallery-3 .content {
+
+  position: relative;
+
+  height: 100%;
+
+}
+
+.section.gallery-3 .exhibit {
+
+  height: 100%;
+
+  overflow: hidden;
+
+  position: relative;
+
+}
+
+.section.gallery-3 .intor,
+
+.section.gallery-3 .exhibit img {
+
+  height: 85%;
+
+  float: left;
+
+  position: relative;
+
+}
+
+.section.gallery-3 .inner {
+
+  position: absolute;
+
+  height: 300px;
+
+  width: 440px;
+
+  padding: 0 20px;
+
+  /*top: 50%;*/
+
+  bottom: 10px;
+
+  color: white;
+
+}
+
+.section.gallery-3 h3 {
+
+  font-size: 22px;
+
+}
+
+.section.gallery-3 p {
+
+  margin-top: 18px;
+
+  font-size: 13px;
+
+  text-align: justify;
+
+}
+
+.section.gallery-3 .like-set-16 {
+
+  margin-top: 8px;
+
+}
+
+.section.shop {
+
+  width: 1600px;
+
+}
+
+.section.shop .content {
+
+  position: absolute;
+
+  height: 85%;
+
+  width: 1600px;
+
+  top: 95px;
+
+  text-align: center;
+
+}
+
+.section.shop .content img {
+
+  height: 100%;
+
+}
+
+.section.gallery-4 .content {
+
+  position: absolute;
+
+  height: 600px;
+
+  top: 42%;
+
+  margin-top: -220px;
+
+  width: 1400px;
+
+}
+
+.section.gallery-4 .intor-1,
+
+.section.gallery-4 .intor-2 {
+
+  position: absolute;
+
+  color: #fff;
+
+}
+
+.section.gallery-4 .intor-1 {
+
+  top: 327px;
+
+  left: 549px;
+
+  width: 320px;
+
+}
+
+.section.gallery-4 .intor-2 {
+
+  top: 105px;
+
+  left: 1180px;
+
+  width: 450px;
+
+}
+
+.section.gallery-4 p {
+
+  font-size: 13px;
+
+  text-align: justify;
+
+}
+
+.section.gallery-4 .like-set-16 {
+
+  margin-top: 10px;
+
+}
+
+.section.gallery-4 .left-exhibt {
+
+  height: 100%;
+
+  background-image: url("../images/vol3/frame-group3.png");
+
+  background-repeat: no-repeat;
+
+  background-position: 0 0;
+
+  background-size: 740px;
+
+}
+
+.section.gallery-4 .frame {
+
+  position: absolute;
+
+  top: 40px;
+
+  left: 500px;
+
+  height: 400px;
+
+  width: 800px;
+
+  z-index: 5;
+
+  background-image: url("../images/vol3/frame-group4.png");
+
+  background-repeat: no-repeat;
+
+  pointer-events: none;
+
+}
+
+.section.gallery-4 .right-exhibt-1,
+
+.section.gallery-4 .right-exhibt-2 {
+
+  position: absolute;
+
+  z-index: 3;
+
+}
+
+.section.gallery-4 .right-exhibt-1 {
+
+  left: 709px;
+
+  top: 103px;
+
+}
+
+.section.gallery-4 .right-exhibt-2 {
+
+  left: 982px;
+
+  top: 101px;
+
+}
+
+.section.exit {
+
+  width: 564px;
+
+  min-width: 564px;
+
+  position: absolute;
+
+  top: 0px;
+
+  left: 16300px;
+
+  background-image: url("../images/vol3/exit-mid.png");
+
+  background-repeat: no-repeat;
+
+  background-position: 0 50%;
+
+}
+
+.section.exit .content {
+
+  position: absolute;
+
+  overflow: hidden;
+
+  top: 50%;
+
+  margin-top: -12px;
+
+  left: 178px;
+
+}
+
+.section.exit .content a {
+
+  color: #fff;
+
+  text-decoration: none;
+
+  font-size: 36px;
+
+  font-weight: bold;
+
+  letter-spacing: 4px;
+
+}
+
+.section.exit .content a:hover {
+
+  color: red;
+
+  text-decoration: line-through;
+
+}
+
+.section.exit .content p {
+
+  margin-bottom: 8px;
+
+}
+
+
+
+.like-bundle {
+
+  background-color: rgba(153,172,205,0.65);
+
+  padding: 6px;
+
+}
+
+
+
+.like-bundle a + a {
+
+  margin-left: 6px;
+
+}
+
+
+
+.like-bundle a {
+
+  display: inline-block;
+
+  font-size: 12px;
+
+  height: 24px;
+
+  padding: 4px 6px 0;
+
+  border-radius: 3px;
+
+  background: #d5d5d5;
+
+  background: -moz-linear-gradient(top,#d5d5d5 0,#efefef 48%,#fff 94%);
+
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#d5d5d5),color-stop(48%,#efefef),color-stop(94%,#fff));
+
+  border: 1px solid #bfbfbf;
+
+  color: black;
+
+  text-decoration: none;
+
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+
+  float: left;
+
+  font-weight: bold;
+
+}
+
+.like-bundle .counter {
+
+  position: relative;
+
+  display: inline-block;
+
+  font-size: 12px;
+
+  height: 24px;
+
+  line-height: 24px;
+
+  padding: 0 4px;
+
+  min-height: 6px;
+
+  border-radius: 3px;
+
+  background: #fafafa;
+
+  border: 1px solid #bfbfbf;
+
+  color: black;
+
+  float: left;
+
+  font-weight: normal;
+
+  cursor: pointer;
+
+}
+
+.like-bundle .counter-arrow {
+
+  position: absolute;
+
+  content: ' ';
+
+  background-image: url("../images/vol3/bubble_arrow.png");
+
+  width: 4px;
+
+  height: 6px;
+
+  left: -4px;
+
+  top: 8px;
+
+}
+
+.like-bundle a.facebook {
+
+  background: #4c69ba;
+
+  background: -webkit-gradient(linear, center top, center bottom, from(#4c69ba), to(#3b55a0));
+
+  background: -webkit-linear-gradient(#4c69ba, #3b55a0);
+
+  border: none;
+
+  border-radius: 2px;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  text-shadow: 0 -1px 0 #354c8c;
+
+}
+
+.like-bundle a.pinterest {
+
+  background-image: url("../images/vol3/pinterest_counter.png");
+
+  border: none;
+
+  height: 24px;
+
+  width: 62px;
+
+  background-size: 62px 24px;
+
+  background-repeat: no-repeat;
+
+  /*background-position: 0 -1px;*/
+
+  color: transparent;
+
+}
+
+.like-bundle a.twitter {
+
+  background-image: url("../images/vol3/twitter_counter.png");
+
+  border: none;
+
+  height: 24px;
+
+  width: 66px;
+
+  background-size: 66px 24px;
+
+  background-repeat: no-repeat;
+
+  /*background-position: 0 -1px;*/
+
+  color: transparent;
+
+}
+
+.icon {
+
+  display: inline-block;
+
+  height: 12px;
+
+  line-height: 14px;
+
+  background-repeat: no-repeat;
+
+  background-position: 0 50%;
+
+  background-size: 14px;
+
+  padding-left: 16px;
+
+}
+
+.icon.facebook {
+
+  background-image: url("../images/vol3/fbsmall.png");
+
+}
+
+.icon.sina {
+
+  background-image: url("../images/vol3/sina_16.png");
+
+}
+
+.icon.plus {
+
+  background-image: url("../images/vol3/googleplus_16.png");
+
+  background-size: 12px 12px;
+
+}
+
+.icon.nope {
+
+  padding-left: 0;
+
+}
+
+
+
+.like-set-32 {
+
+  display: inline-block;
+
+  background-color: rgba(153,172,205,0.65);
+
+  padding: 6px;
+
+  margin-top: 10px;
+
+}
+
+
+
+.like-set-16 {
+
+  display: inline-block;
+
+  background-color: rgba(153,172,205,0.65);
+
+  padding: 4px;
+
+}
+
+
+
+.goodwill-32 {
+
+  display: inline-block;
+
+  height: 32px;
+
+  width: 32px;
+
+  background-image: url("../images/vol3/widget009.old.32.icons.png");
+
+  background-repeat: no-repeat;
+
+}
+
+.like-set-32 .goodwill-32 {
+
+  float: left;
+
+}
+
+.goodwill-16 {
+
+  float: left;
+
+  height: 16px;
+
+  width: 16px;
+
+  background-image: url("../images/vol3/widget009.old.16.icons.png");
+
+  background-repeat: no-repeat;
+
+}
+
+.goodwill-32 + .goodwill-32 {
+
+  margin-left: 6px;
+
+}
+
+.goodwill-16 + .goodwill-16 {
+
+  margin-left: 4px;
+
+}
+
+
+
+.goodwill-32.facebook {
+
+  background-position: 0 -2528px;
+
+}
+
+.goodwill-32.douban {
+
+  background-position: 0 -2048px;
+
+}
+
+.goodwill-32.plus {
+
+  background-position: 0 -3552px;
+
+}
+
+.goodwill-32.twitter {
+
+  background-position: 0 -8384px;
+
+}
+
+.goodwill-32.pinterest {
+
+  background-position: 0 -6208px;
+
+}
+
+.goodwill-32.sina {
+
+  background-position: 0 -7072px;
+
+}
+
+
+
+.goodwill-16.facebook {
+
+  background-position: 0 -1264px;
+
+}
+
+.goodwill-16.douban {
+
+  background-position: 0 -1024px;
+
+}
+
+.goodwill-16.plus {
+
+  background-position: 0 -1776px;
+
+}
+
+.goodwill-16.twitter {
+
+  background-position: 0 -4192px;
+
+}
+
+.goodwill-16.pinterest {
+
+  background-position: 0 -3104px;
+
+}
+
+.goodwill-16.sina {
+
+  background-position: 0 -3536px;
+
+}
+
+
+
+.corridor.lock .section.gallery-2,
+
+.corridor.lock .section.gallery-3,
+
+.corridor.lock .section.gallery-4,
+
+.corridor.lock .section.shop {
+
+  display: none;
+
+}
+
+
+
+.section.plus-us {
+
+  padding: 200px 0;
+
+  color: white;
+
+  display: none;
+
+  font-size: 38px;
+
+  text-align: center;
+
+}
+
+
+
+.lock .section.plus-us {
+
+  display: block;
+
+}
+
+
+
+.awesome-like {
+
+  position: fixed;
+
+  right: 0;
+
+  top: 128px;
+
+  height: 288px;
+
+  width: 64px;
+
+  z-index: 20;
+
+}
+
+.like-set-32-fixed .goodwill-warpper {
+
+  display: block;
+
+  text-align: center;
+
+  background-color: #fff;
+
+  line-height: 48px;
+
+  width: 48px;
+
+  float: right;
+
+  transition: all .2s;
+
+}
+
+.like-set-32-fixed .goodwill-warpper:hover {
+
+  width: 64px;
+
+}
+
+.goodwill-warpper.facebook {
+
+  background-color: #305891;
+
+}
+
+.goodwill-warpper.douban {
+
+  background-color: #0E7512;
+
+}
+
+.goodwill-warpper.plus {
+
+  background-color: #CE4D39;
+
+}
+
+.goodwill-warpper.twitter {
+
+  background-color: #2CA8D2;
+
+}
+
+.goodwill-warpper.pinterest {
+
+  background-color: #C82828;
+
+}
+
+.goodwill-warpper.sina {
+
+  background-color: #F5CA59;
+
+}
+
+.like-set-32-fixed .goodwill-32 {
+
+  vertical-align: middle;
+
+}

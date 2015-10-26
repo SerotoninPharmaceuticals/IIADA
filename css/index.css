@@ -1,0 +1,672 @@
+@charset "utf-8";
+body {
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5,p{
+	color: white;
+	font-family: "Fixedsys", Consolas, Lucida Console, Monaco, monospace;
+}
+
+a:link, a:active, a:visited{color:white;}
+a:hover{background-color: yellow; color: blue; text-decoration:line-through}
+
+.footerlink a:link, a:active, a:visited{text-decoration: none}
+.footerlink a:hover{background-color: white; color: black; text-decoration:line-through}
+
+h1{
+	font-size: 94px;
+	margin: 5px 0 0 15px;
+	text-align: left;
+	float: left;
+}
+
+h2{
+	font-size: 42px;
+	text-align: center;	
+}
+
+.titlesec{
+	margin: 0 auto;
+	margin-top: 215px;
+	border-style: dashed;
+	border-color: #FFFFFF;
+	border-width: 5px 5px 5px 5px;
+	width: 865px;
+	position: relative;
+}
+
+.titlesec2{
+	margin: 0 auto;
+	margin-top: 60px;
+	border-style: dashed;
+	border-color: #FFFFFF;
+	border-width: 5px 5px 5px 5px;
+	width: 560px;
+}
+
+.titlesec3{
+	left: 50%;
+	margin-top: -220px;
+	margin-left: -463px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 5px 5px 5px 5px;
+	width: 865px; height: 448px;
+	position: absolute;
+	pointer-events: none;
+}
+
+.titlesec4{
+	left: 50%;
+	margin-top: 36px;
+	margin-left: -309px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	border-width: 5px 5px 5px 5px;
+	width: 683px; height: 358px;
+	position: absolute;
+	pointer-events: none;
+}
+
+#buttons{
+	left: 50%;
+	margin-top: 100px;
+	margin-left: -480px;
+	width: 112px; height: 50px;
+	position: absolute;
+}
+
+.button{ width: 114px; margin-bottom: 8px}
+
+.decolines0{
+	position: absolute;
+	left:0; right:0; top:0; bottom:0;
+	margin: auto;
+	border-style: dashed;
+	border-color: #FFFFFF;
+	border-width: 5px 5px 5px 5px;
+}
+
+.decolines{
+	padding: 10px;
+	height: 450px;
+	border-style: dashed;
+	border-color: #FFFFFF;
+	border-width: 5px 5px 5px 5px;
+}
+.decolines-container .background {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	background-color:#06090E;
+	z-index: -1;
+}
+.decolines-container {
+	margin: 185px auto;
+	width:80%;
+	position: relative;
+	z-index: 1000;
+}
+
+.tips{
+	position: relative;
+	border: inset 5px #FFFFFF;
+	resize:none; 
+	margin-top:15px;
+	font-family: "Fixedsys", Consolas, Lucida Console, Monaco, monospace;
+	font-size: 16px;
+	color: yellow ;
+	background: blue;
+	z-index: 50;
+}
+
+.notebook{
+	width: 85%;
+	height: 75%;
+	z-index: 50;
+	margin: auto;
+	resize:none; 
+	position:absolute;
+	line-height: 1.6em;
+	top:25px; left:0; right:0;
+	background-color: #fff; 
+	background-image: 
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.6em;
+	font-family:Consolas, Lucida Console, Monaco, monospace;
+	font-size: 15px;
+}
+
+.notebookSub{
+	width: 100%;
+	z-index: 50;
+	margin: auto;
+	position:absolute;
+	bottom:25px; left:0; right:0;
+	text-align: center;
+}
+
+h3{
+	font-size: 54px;
+	margin: 0 auto;
+	text-align: left;
+	margin: 5px 0 0 15px;
+	text-decoration: underline;
+}
+
+h4{
+	font-size: 36px;
+	margin-top:75px;
+	text-align: left;
+}
+
+h5{
+	font-size: 36px;
+	margin: 5px 15px 0 0;
+	text-align: right;
+	float: right;
+}
+
+p{
+	font-size: 28px;
+}
+
+.layer-line{
+	border-style: dashed;
+	border-color: #FFFFFF;
+	border-width: 5px 0 0 0;
+}
+
+.signs{
+	width: 360px;
+	height: 150px;
+}
+
+.signtext{
+	width: 190px;
+	float: right;
+}
+
+#rays{
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	z-index: 10;
+}
+
+#filter{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	pointer-events: none;
+}
+
+#sky{
+	position: absolute;
+	width: 100%;
+	height: 81px;
+	top: 0px;
+	background: url(../images/sky.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer1{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 80px;
+	background: url(../images/background1.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer2{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 580px;
+	background: url(../images/background2.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer3{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 1080px;
+	background: url(../images/background3.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer4{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 2080px;
+	background: url(../images/background4.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer5{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 2580px;
+	background: url(../images/background5.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer6{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 3080px;
+	background: url(../images/background6.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer7{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 4080px;
+	background: url(../images/background7.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer8{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 4580px;
+	background: url(../images/background8.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer9{
+	position: absolute;
+	width: 100%;
+	height: 1500px;
+	top: 5080px;
+	background: url(../images/background9.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer10{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 6580px;
+	background: url(../images/background10.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer11{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 7080px;
+	background: url(../images/background11.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer12{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 8080px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer13{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 8580px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer14{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 9080px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat;
+}
+
+#layer16{
+	position: absolute;
+	width: 100%;
+	height: 1500px;
+	top: 10080px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat;
+}
+
+#layer17{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 11580px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer18{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 12080px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer19{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 12580px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat;
+}
+
+#layer20{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 13080px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer21{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 13580px;
+	background: url(../images/background12.jpg);
+	background-repeat: repeat;
+}
+
+#layer22{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 14580px;
+	background: url(../images/background13.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer23{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 15080px;
+	background: url(../images/background14.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer24{
+	position: absolute;
+	width: 100%;
+	height: 500px;
+	top: 15580px;
+	background: url(../images/background15.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer25{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 16080px;
+	background: url(../images/background16.jpg);
+	background-repeat: repeat-x;
+}
+
+#layer26{
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	top: 17080px;
+	background: url(../images/background17.jpg);
+	background-repeat: repeat-x;
+}
+
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 65px;
+	top: 18080px;
+	background: black;
+	color: white;
+	text-align: center;	
+}
+
+.ticket{
+	margin: 110px 10px 0 50px;
+	transition: all .2s;
+}
+#ticketWindow .ticket.avaiable {
+	cursor: pointer;
+}
+
+.ticketMenu td{
+	width: 300px;
+	text-align: center;
+}
+
+#ticketWindow{
+	overflow-x:scroll; overflow-y:hidden; 
+	width: 100%; height:100%;
+	background-color: #385d7d;
+	background-image: linear-gradient(white 1px, transparent 1px),
+	linear-gradient(90deg, white 1px, transparent 1px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 10px 10px, 10px 10px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	white-space:nowrap;
+}
+
+#ticketWindow .ticket.avaiable:hover {
+	/*margin-top: 15px;*/
+	transform: translate(0,-45px);
+}
+
+#ticketWindow .ticket.avaiable.active {
+	/*margin-top: 0;*/
+	transform: translate(0,-55px);
+}
+
+#enter {
+	cursor: pointer;
+}
+
+@font-face {
+	font-family: "Fixedsys";
+	src: url('../images/fsex300-webfont.eot');
+	src: url('../images/fsex300-webfont.eot?#iefix') format('embedded-opentype'),
+url('../images/fsex300-webfont.woff') format('woff'),
+url('../images/fsex300-webfont.ttf') format('truetype'),
+url('../images/fsex300-webfont.svg#FixedsysExcelsior301Regular') format('svg');
+}
+/*
+@keyframes roll {
+	from {
+		transform: rotateX(0);
+	}
+	to {
+		transform: rotateX(360deg);
+	}
+}*/
+@-webkit-keyframes roll {
+	0% {
+		transform: rotateX(0);
+		background-position: 0 0;
+	}
+	25% {
+		background-position: 0 0;
+	}
+	26% {
+		background-position: 0 -62px;
+	}
+	75% {
+		background-position: 0 -62px;
+	}
+	76% {
+		background-position: 0 0;
+	}
+	100% {
+		transform: rotateX(-360deg);
+		background-position: 0 0;
+	}
+}
+@-webkit-keyframes roll2 {
+	0% {
+		transform: rotateX(0);
+		background-position: 0 0;
+	}
+	25% {
+		background-position: 0 0;
+	}
+	26% {
+		background-position: 0 -56px;
+	}
+	75% {
+		background-position: 0 -56px;
+	}
+	76% {
+		background-position: 0 0;
+	}
+	100% {
+		transform: rotateX(-360deg);
+		background-position: 0 0;
+	}
+}
+@-webkit-keyframes roll3 {
+	0% {
+		transform: rotateX(0);
+		background-position: 0 0;
+	}
+	25% {
+		background-position: 0 0;
+	}
+	26% {
+		background-position: 0 -66px;
+	}
+	75% {
+		background-position: 0 -66px;
+	}
+	76% {
+		background-position: 0 0;
+	}
+	100% {
+		transform: rotateX(-360deg);
+		background-position: 0 0;
+	}
+}
+@-webkit-keyframes shadow {
+	0% {
+		opacity: 0.07;
+	}
+	25% {
+		opacity: .75;
+	}
+	26% {
+		opacity: 0.07;
+	}
+	50% {
+		opacity: 0.07;
+	}
+	75% {
+		opacity: .75;
+	}
+	76% {
+		opacity: 0.07;
+	}
+	100% {
+		opacity: 0.07;
+	}
+}
+@-webkit-keyframes drop {
+	from {
+		top: -10%;
+	}
+	to {
+		top: 110%;
+	}
+}
+#layer14 {
+	overflow: hidden;
+}
+#layer14 h3,
+#layer14 h5,
+#layer14 p {
+	position: relative;
+}
+#layer14 .layer-line > * {
+	z-index: 10000;
+}
+#layer14 .money-container {
+	perspective: 500px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 125px;
+	height: 60px;
+	animation: drop 8s linear infinite;
+	-webkit-animation: drop 8s linear infinite;
+}
+#layer14 .money2 {
+	width: 130px;
+	height: 56px;
+}
+#layer14 .money3 {
+	width: 120px;
+	height: 66px;
+}
+#layer14 .money-container .mask {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	z-index: 1;
+	animation: shadow 2s linear infinite;
+	-webkit-animation: shadow 2s linear infinite;
+}
+#layer14 .money {
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/RMB.png");
+	animation: roll 2s linear infinite;
+	-webkit-animation: roll 2s linear infinite;
+}
+#layer14 .money2 .money {
+	background-image: url("../images/RMB2.png");
+	animation: roll2 2s linear infinite;
+	-webkit-animation: roll2 2s linear infinite;
+}
+#layer14 .money3 .money {
+	background-image: url("../images/RMB3.png");
+	animation: roll3 2s linear infinite;
+	-webkit-animation: roll3 2s linear infinite;
+}
+#layer14 .money.back {
+	top: 100px;
+	background-position: 0 -62px;
+}
+
+.adver{
+	margin: 5px;
+	display: inline-block;
+}
