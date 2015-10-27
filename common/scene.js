@@ -69,9 +69,12 @@
     scenes = scenes.filter('[data-scene]');
     return true;
   }
-  var next = function () {
+  var next = function (isLoop) {
     current_scene = scenes.filter('.camera-on');
     var next_scene = scenes[current_scene.index() + 1];
+    if(isLoop && !next_scene) {
+      next_scene = scenes[0];
+    }
     if(next_scene) {
       jumpByElement($(next_scene));
     }

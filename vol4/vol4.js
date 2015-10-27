@@ -258,7 +258,7 @@
             break;
           case 39:
           case 40:
-            $.scene.next();
+            $.scene.next(true);
             break;
         }
       }

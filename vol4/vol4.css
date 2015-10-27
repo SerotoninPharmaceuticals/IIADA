@@ -311,6 +311,13 @@ exhibit-info table td.name {
 exhibit-info table td.detail {
   color: #969696;
 }
+exhibit-info a {
+  color: inherit;
+  text-decoration: none;
+}
+exhibit-info a:hover {
+  text-decoration: underline;
+}
 
 
 
