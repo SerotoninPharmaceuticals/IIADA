@@ -290,6 +290,15 @@
           );
       }
     });
+    delegate('click.share-all', '.share-all', function (event) {
+      event.preventDefault();
+      var url = 'http://iiada.serotoninphobia.info/volume004-didc.html';
+      var image = 'http://iiada.serotoninphobia.info/vol4/img/final.jpg';
+      window.open('http://www.douban.com/share/service?image=' + image + '&href=' + url);
+      window.open('https://www.facebook.com/dialog/feed?app_id=514810405354859&display=page&link=' + url + '&redirect_uri=http://iiada.serotoninphobia.info&picture=' + image);
+      window.open('https://twitter.com/intent/tweet?text=' + url);
+      window.open('http://service.weibo.com/share/share.php?url=' + url);
+    });
 
   });
 

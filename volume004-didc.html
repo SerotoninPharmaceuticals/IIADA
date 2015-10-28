@@ -8,7 +8,7 @@
 </head>
 <body>
   <article id="stage">
-    <section scene data-scene="cover" class="camera-on">
+    <section scene data-scene="cover">
       <div layer layout-center>
         <content>
           <vertial-line class="volume">- Volume 4 -</vertial-line>
@@ -335,24 +335,36 @@
             <div class="like-and-share">
               <a class="icon like"></a>
               <div class="share-set">
-                <a class="icon share"></a>
+                <a class="icon share" data-share-image="http://iiada.serotoninphobia.info/vol4/img/5-share.png"></a>
               </div>
             </div>
             <p>According to recent researches，the blessing is actually not provided by the content of the shared post, but the act of sharing itself.</p>
             <p>根据最近的研究实际上是提供内容共享悬架的祝福，但分享的行为。</p>
           </exhibit-info>
-          <exhibit-frame class="small weibo">
-            <img src="vol4/img/5-weibo.png">
-          </exhibit-frame>
-          <exhibit-frame class="small facebook">
-            <img src="vol4/img/5-facebook.png">
-          </exhibit-frame>
-          <exhibit-frame class="small twitter">
-            <img src="vol4/img/5-twitter.png">
-          </exhibit-frame>
-          <exhibit-frame class="small wechat">
-            <img src="vol4/img/5-wechat.png">
-          </exhibit-frame>
+          <a target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:8080/volume004-didc.html">
+            <exhibit-frame class="small weibo">
+              <img class="hover-img" src="vol4/img/5-weibo-hover.jpg">
+              <img src="vol4/img/5-weibo.png">
+            </exhibit-frame>
+          </a>
+          <a target="_blank" href="https://www.facebook.com/dialog/feed?app_id=514810405354859&display=page&link=http://localhost:8080/volume004-didc.html&redirect_uri=http://iiada.serotoninphobia.info&picture=http://iiada.serotoninphobia.info/vol4/img/5-share.png">
+            <exhibit-frame class="small facebook">
+              <img class="hover-img" src="vol4/img/5-facebook-hover.jpg">
+              <img src="vol4/img/5-facebook.png">
+            </exhibit-frame>
+          </a>
+          <a target="_blank" href="https://twitter.com/intent/tweet?text=http://localhost:8080/volume004-didc.html">
+            <exhibit-frame class="small twitter">
+              <img class="hover-img" src="vol4/img/5-twitter-hover.jpg">
+              <img src="vol4/img/5-twitter.png">
+            </exhibit-frame>
+          </a>
+          <a href="baidu.com">
+            <exhibit-frame class="small wechat">
+              <img class="hover-img" src="vol4/img/5-wechat-hover.jpg">
+              <img src="vol4/img/5-wechat.png">
+            </exhibit-frame>
+          </a>
           <exhibit-info class="right-info">
             <p>Social Network Service is an online platform dedicated to build social relations among deepsea homo sapiens. Since late 1990s, the so-called SNS has always been trying continuously in a variety of ways to satisfy the demand of communication of the most gregarious animal ever existed in the planet - deepsea homo sapiens. Hence, one can easily affirm that the realization of the Deepsea Arcana relies solely on the existence of social network service.</p>
             <p>社交网络服务是一个致力于打造深海之中人类社会关系的网上平台，自90年代后期，所谓的SNS一直在不断地以各种方式，以满足最群居动物沟通的需求不断尝试中存在的星球 - 深海智人。因此，人们可以很容易地确认，实现了深海阿尔克纳的完全依赖于社交网络服务的存在。</p>
@@ -360,12 +372,19 @@
         </content>
       </div>
     </section>
-    <section scene data-scene="farewell">
+    <section scene data-scene="farewell" class="camera-on">
       <div layer layout-center>
         <content>
-          <exhibit-frame>
-            <img src="vol4/img/final.png">
-          </exhibit-frame>
+          <a class="share-all" href="#">
+            <exhibit-frame>
+              <img class="hover-img" src="vol4/img/final.jpg">
+              <img src="vol4/img/final-origin.jpg">
+            </exhibit-frame>
+          </a>
+          <exhibit-info>
+            <p>Those who share this site shall be blessed, and that those who disobey shall be cursed</p>
+            <p>那些谁分享这个网站必得福，而那些谁违反应被诅咒</p>
+          </exhibit-info>
         </content>
       </div>
     </section>

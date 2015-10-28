@@ -278,8 +278,16 @@ exhibit-frame:before {
   left: 0;
   height: 50%;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background-color: rgba(255, 255, 255, 0.2);
+}
+exhibit-frame .hover-img {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+exhibit-frame:hover .hover-img {
+  visibility: visible;
 }
 
 exhibit-info {
@@ -327,8 +335,17 @@ exhibit-info a:hover {
   justify-content: center;
   text-align: center;
 }
-[data-scene=farewell] exhibit-frame {
-  position: static;
+[data-scene=farewell] exhibit-frame,
+[data-scene=farewell] exhibit-info {
+  position: relative;
+}
+[data-scene=farewell] exhibit-info {
+  margin-left: 40px;
+  width: 280px;
+  padding-top: 90px;
+}
+[data-scene=farewell] exhibit-info p {
+  font-size: 14px;
 }
 
 
