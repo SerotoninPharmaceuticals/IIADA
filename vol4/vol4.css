@@ -342,11 +342,9 @@ exhibit-info a:hover {
 [data-scene=farewell] exhibit-info {
   margin-left: 40px;
   width: 280px;
-  padding-top: 90px;
+  padding-top: 270px;
 }
-[data-scene=farewell] exhibit-info p {
-  font-size: 14px;
-}
+
 
 
 [data-scene=gallery1] .buddha {
