@@ -151,9 +151,10 @@ vertial-line-chn {
   white-space:nowrap;
 }
 [data-scene=cover] vertial-line.volume {
-  top: 100px;
-  left: 630px;
+  top: 200px;
+  left: 638px;
   font-size: 0.8em;
+  opacity: 0;
 }
 [data-scene=cover] vertial-line.iiada-description {
   position: fixed;
@@ -423,7 +424,7 @@ exhibit-info a:hover {
   top: 372px;
 }
 [data-scene=gallery3] .down-info {
-  top: 570px;
+  bottom: 20px;
   left: 72px;
 }
 
