@@ -265,6 +265,7 @@ vertial-line-chn {
 }
 [data-scene=slogon] .slogon {
   width: 427px;
+  padding-bottom: 200px;
 }
 
 exhibit-frame {
