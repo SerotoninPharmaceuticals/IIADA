@@ -103,6 +103,7 @@
         var progess_time = current_timestamp - begin[valueName].timestamp;
         if(progess_time > destiny[valueName].duration) {
           progess_time = destiny[valueName].duration;
+          $('vertial-line.volume').addClass('show');
         }
         progess[valueName].progess = progess_time / destiny[valueName].duration;
         progess[valueName].value =

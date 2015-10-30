@@ -154,7 +154,11 @@ vertial-line-chn {
   top: 200px;
   left: 638px;
   font-size: 0.8em;
+  transition: all 2s;
   opacity: 0;
+}
+[data-scene=cover] vertial-line.volume.show {
+  opacity: 1;
 }
 [data-scene=cover] vertial-line.iiada-description {
   position: fixed;
