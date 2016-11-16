@@ -12,7 +12,20 @@ h1, h2, h3, h4, h5,p{
 }
 
 a:link, a:active, a:visited{color:white;}
-a:hover{background-color: yellow; color: blue; text-decoration:line-through}
+a:hover{background-color: yellow; color: blue; text-decoration:none}
+
+a.deceased:link, a.deceased:active, a.deceased:visited{
+    text-decoration:none;
+    padding-left:8px;
+    padding-right:8px;
+    border-style: solid;
+    border-width: 4px;
+}
+
+a.deceased:hover{
+    border-color: white;
+    text-decoration:line-through;
+}
 
 .footerlink a:link, a:active, a:visited{text-decoration: none}
 .footerlink a:hover{background-color: white; color: black; text-decoration:line-through}
