@@ -5,6 +5,8 @@ body {
     min-width: 1360px;
 	margin: 0 auto;
     position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5,p{
@@ -510,9 +512,9 @@ p{
 	font-family: "Fixedsys";
 	src: url('../images/fsex300-webfont.eot');
 	src: url('../images/fsex300-webfont.eot?#iefix') format('embedded-opentype'),
-url('../images/fsex300-webfont.woff') format('woff'),
-url('../images/fsex300-webfont.ttf') format('truetype'),
-url('../images/fsex300-webfont.svg#FixedsysExcelsior301Regular') format('svg');
+	url('../images/fsex300-webfont.woff') format('woff'),
+	url('../images/fsex300-webfont.ttf') format('truetype'),
+	url('../images/fsex300-webfont.svg#FixedsysExcelsior301Regular') format('svg');
 }
 /*
 @keyframes roll {
