@@ -47,10 +47,10 @@ h2{
 
 .titlesec{
 	margin: 0 auto;
-	margin-top: 215px;
+	margin-top: 150px;
 	border-style: dashed;
 	border-color: #FFFFFF;
-	border-width: 5px 5px 5px 5px;
+	border-width: 5px;
 	width: 865px;
 	position: relative;
 }
@@ -60,18 +60,18 @@ h2{
 	margin-top: 60px;
 	border-style: dashed;
 	border-color: #FFFFFF;
-	border-width: 5px 5px 5px 5px;
+	border-width: 5px;
 	width: 560px;
 }
 
 .titlesec3{
 	left: 50%;
-	margin-top: -220px;
+	margin-top: -265px;
 	margin-left: -463px;
 	border-style: solid;
 	border-color: #FFFFFF;
 	border-width: 5px 5px 5px 5px;
-	width: 865px; height: 485px;
+	width: 865px; height: 530px;
 	position: absolute;
 	pointer-events: none;
 }
@@ -82,8 +82,8 @@ h2{
 	margin-left: -309px;
 	border-style: solid;
 	border-color: #FFFFFF;
-	border-width: 5px 5px 5px 5px;
-	width: 683px; height: 358px;
+	border-width: 5px;
+	width: 683px; height: 350px;
 	position: absolute;
 	pointer-events: none;
 }
@@ -96,7 +96,7 @@ h2{
 	position: absolute;
 }
 
-.button{ width: 114px; margin-bottom: 8px}
+.button{ width: 135px; margin-bottom: 8px}
 
 .decolines0{
 	position: absolute;
@@ -202,11 +202,14 @@ p{
 .signs{
 	width: 360px;
 	height: 150px;
+    position: relative;
 }
 
 .signtext{
 	width: 190px;
-	float: right;
+	position: absolute;
+    right: 20px;
+    top: 15px;
 }
 
 #rays{
