@@ -19,10 +19,6 @@ $(document).ready(function () {
       $(data).find('.number').text(count_number_string);
     }, Math.floor(Math.random()*2000 + 800));
   });
-  document.oncontextmenu = function (event) {
-    alert('Nothing\n               is\n\n\n                                            RIGHT\n                                    here.');
-    return false;
-  }
 
   $('.untouchable').click(function () {
     alert('Please do not touch the exhibits');
